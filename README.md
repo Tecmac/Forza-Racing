@@ -6,7 +6,7 @@
 Forza Racing is a race game which orientates it self on the qualfiying mode in motorsport. The target of the game is to make an environment to set a fastest lap and to compete with friends.
 
 
-## Prequisities to develop the game
+## Prerequisites to develop the game
 * this repository
 * Unity
 * Visual Studio
