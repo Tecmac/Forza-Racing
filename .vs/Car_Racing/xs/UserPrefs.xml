@@ -1,0 +1,46 @@
+﻿<Properties StartupConfiguration="{4E54808C-79F5-603C-1F04-9698F8163FF6}|">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/ButtonOption.cs">
+    <Files>
+      <File FileName="Assets/Scripts/Trigger.cs" />
+      <File FileName="Assets/Scripts/LapTimer.cs" />
+      <File FileName="Assets/Scripts/StartTimer.cs" />
+      <File FileName="Assets/Scripts/ButtonOption.cs" Line="28" Column="5" />
+      <File FileName="Assets/Scripts/CameraStable.cs" />
+      <File FileName="Assets/Scripts/LapComplete.cs" />
+      <File FileName="Assets/Standard Assets/CrossPlatformInput/Scripts/CrossPlatformInputManager.cs" />
+      <File FileName="Assets/Standard Assets/Vehicles/Car/Scripts/CarUserControl.cs" />
+      <File FileName="Assets/Standard Assets/Vehicles/Car/Scripts/CarController.cs" />
+      <File FileName="Assets/Standard Assets/Vehicles/Car/CarGuidelines.txt" />
+      <File FileName="Assets/Scripts/SceneChange.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Car_Racing" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Scripts" expanded="True">
+                <Node name="ButtonOption.cs" selected="True" />
+              </Node>
+              <Node name="Standard Assets" expanded="True">
+                <Node name="Vehicles" expanded="True">
+                  <Node name="Car" expanded="True">
+                    <Node name="Scripts" expanded="True" />
+                    <Node name="Shaders" expanded="True" />
+                  </Node>
+                </Node>
+              </Node>
+              <Node name="UI Toolkit" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="d7f5d397-0f57-4097-a031-63163c7666a6" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
