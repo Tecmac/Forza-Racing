@@ -1,309 +1,266 @@
 { "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
-,{ "pid":12345, "tid":0, "ts":1690395197105967, "dur":53, "ph":"X", "name": "IPC_Client_InitializeAndConnectToParent",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1690395197106047, "dur":17506, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1690395197123562, "dur":175, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1690395197123775, "dur":206, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1690395197124317, "dur":64, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Executables/Windows/Forza-Racing/Forza Racing_Data/resources.assets" }}
-,{ "pid":12345, "tid":0, "ts":1690395197124869, "dur":54, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
-,{ "pid":12345, "tid":0, "ts":1690395197124932, "dur":50, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"WriteText Library/Bee/artifacts/csharpactions/boot.config_tyr4.info" }}
-,{ "pid":12345, "tid":0, "ts":1690395197123994, "dur":5438, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1690395197129433, "dur":165959, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1690395197295430, "dur":110, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1690395197295547, "dur":102, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1690395197295694, "dur":100, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1690395197295832, "dur":97, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1690395197296102, "dur":161, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1690395197296411, "dur":3300, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
-,{ "pid":12345, "tid":1, "ts":1690395197123869, "dur":5579, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1690395197129455, "dur":4029, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1690395197133895, "dur":1311, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/boot.config_tyr4.info" }}
-,{ "pid":12345, "tid":1, "ts":1690395197135262, "dur":52, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/PlayerDataCache/Win64/Data/RuntimeInitializeOnLoads.json" }}
-,{ "pid":12345, "tid":1, "ts":1690395197135716, "dur":102, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/erayk/Forza-Racing/Library/Bee/PlayerScriptAssemblies/Assembly-CSharp-firstpass.dll" }}
-,{ "pid":12345, "tid":1, "ts":1690395197135820, "dur":105, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/erayk/Forza-Racing/Library/Bee/PlayerScriptAssemblies/Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":1, "ts":1690395197135970, "dur":462, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/erayk/Forza-Racing/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Core.dll" }}
-,{ "pid":12345, "tid":1, "ts":1690395197136433, "dur":326, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/erayk/Forza-Racing/Library/Bee/PlayerScriptAssemblies/UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":1, "ts":1690395197136761, "dur":335, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/erayk/Forza-Racing/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Flow.dll" }}
-,{ "pid":12345, "tid":1, "ts":1690395197137098, "dur":142, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/erayk/Forza-Racing/Library/Bee/PlayerScriptAssemblies/Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":1, "ts":1690395197137241, "dur":301, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/erayk/Forza-Racing/Library/Bee/PlayerScriptAssemblies/Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":1, "ts":1690395197137544, "dur":115, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/erayk/Forza-Racing/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.State.dll" }}
-,{ "pid":12345, "tid":1, "ts":1690395197137838, "dur":69, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/Player7dc65c80-inputdata.json" }}
-,{ "pid":12345, "tid":1, "ts":1690395197135207, "dur":3030, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
-,{ "pid":12345, "tid":1, "ts":1690395197139247, "dur":1229, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1690395197141527, "dur":151199, "ph":"X", "name": "AddBootConfigGUID",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
-,{ "pid":12345, "tid":1, "ts":1690395197294616, "dur":77, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
-,{ "pid":12345, "tid":1, "ts":1690395197294613, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Executables/Windows/Forza-Racing/Forza Racing_Data/boot.config" }}
-,{ "pid":12345, "tid":1, "ts":1690395197294720, "dur":375, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Executables/Windows/Forza-Racing/Forza Racing_Data/boot.config" }}
-,{ "pid":12345, "tid":1, "ts":1690395197295098, "dur":286, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1690395197123878, "dur":5585, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1690395197129473, "dur":1745, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1690395197131218, "dur":2333, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1690395197135994, "dur":2157, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Executables/Windows/Forza-Racing/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
-,{ "pid":12345, "tid":2, "ts":1690395197138305, "dur":152, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1690395197144106, "dur":53, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1690395197139053, "dur":5177, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Executables/Windows/Forza-Racing/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":2, "ts":1690395197144419, "dur":4670, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Executables/Windows/Forza-Racing/Forza Racing_Data/Managed/System.ServiceModel.Internals.dll" }}
-,{ "pid":12345, "tid":2, "ts":1690395197149122, "dur":107, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Volumes/VM_ErayKayur/Unity/2022.3.5f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-win32/System.Net.Http.dll" }}
-,{ "pid":12345, "tid":2, "ts":1690395197149119, "dur":112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Executables/Windows/Forza-Racing/Forza Racing_Data/Managed/System.Net.Http.dll" }}
-,{ "pid":12345, "tid":2, "ts":1690395197149242, "dur":51, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1690395197149362, "dur":1078, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Executables/Windows/Forza-Racing/Forza Racing_Data/Managed/System.Net.Http.dll" }}
-,{ "pid":12345, "tid":2, "ts":1690395197150527, "dur":4277, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Executables/Windows/Forza-Racing/Forza Racing_Data/Managed/System.Data.dll" }}
-,{ "pid":12345, "tid":2, "ts":1690395197154876, "dur":1096, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Executables/Windows/Forza-Racing/Forza Racing_Data/Managed/UnityEngine.VFXModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1690395197156017, "dur":1008, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Executables/Windows/Forza-Racing/Forza Racing_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1690395197157062, "dur":96, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1690395197157163, "dur":1436, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Executables/Windows/Forza-Racing/Forza Racing_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1690395197158646, "dur":1466, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Executables/Windows/Forza-Racing/Forza Racing_Data/Managed/UnityEngine.StreamingModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1690395197160158, "dur":1304, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Executables/Windows/Forza-Racing/Forza Racing_Data/Managed/UnityEngine.Physics2DModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1690395197161499, "dur":62, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1690395197161567, "dur":1477, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Executables/Windows/Forza-Racing/Forza Racing_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1690395197163277, "dur":56, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Volumes/VM_ErayKayur/Unity/2022.3.5f1/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ContentLoadModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1690395197163275, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Executables/Windows/Forza-Racing/Forza Racing_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1690395197163341, "dur":50, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1690395197163650, "dur":1224, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Executables/Windows/Forza-Racing/Forza Racing_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1690395197164918, "dur":947, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Executables/Windows/Forza-Racing/Forza Racing_Data/Managed/UnityEngine.ARModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1690395197166060, "dur":8578, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Executables/Windows/Forza-Racing/Forza Racing_Data/sharedassets1.assets" }}
-,{ "pid":12345, "tid":2, "ts":1690395197174696, "dur":587, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Executables/Windows/Forza-Racing/Forza Racing_Data/resources.assets" }}
-,{ "pid":12345, "tid":2, "ts":1690395197175305, "dur":223, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1690395197175533, "dur":666, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Executables/Windows/Forza-Racing/Forza Racing_Data/globalgamemanagers.assets.resS" }}
-,{ "pid":12345, "tid":2, "ts":1690395197176216, "dur":119208, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1690395197123882, "dur":5603, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1690395197129493, "dur":1764, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1690395197131257, "dur":2307, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1690395197136179, "dur":3094, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Executables/Windows/Forza-Racing/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":3, "ts":1690395197139349, "dur":92, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Volumes/VM_ErayKayur/Unity/2022.3.5f1/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":3, "ts":1690395197139347, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Executables/Windows/Forza-Racing/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":3, "ts":1690395197139447, "dur":70, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1690395197139908, "dur":59331, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Executables/Windows/Forza-Racing/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":3, "ts":1690395197199275, "dur":96088, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1690395197123892, "dur":5642, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1690395197129542, "dur":1931, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1690395197131473, "dur":2050, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1690395197135539, "dur":2002, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Executables/Windows/Forza-Racing/MonoBleedingEdge/etc/mono/4.5/web.config" }}
-,{ "pid":12345, "tid":4, "ts":1690395197137744, "dur":1969, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Executables/Windows/Forza-Racing/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
-,{ "pid":12345, "tid":4, "ts":1690395197139939, "dur":112, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Volumes/VM_ErayKayur/Unity/2022.3.5f1/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":4, "ts":1690395197139937, "dur":116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Executables/Windows/Forza-Racing/UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":4, "ts":1690395197140057, "dur":54, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1690395197140115, "dur":58, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1690395197162440, "dur":54, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1690395197140254, "dur":22258, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Executables/Windows/Forza-Racing/UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":4, "ts":1690395197162570, "dur":84, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Volumes/VM_ErayKayur/Unity/2022.3.5f1/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.CrashReportingModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1690395197162568, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Executables/Windows/Forza-Racing/Forza Racing_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1690395197162661, "dur":136, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1690395197163229, "dur":1175, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Executables/Windows/Forza-Racing/Forza Racing_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1690395197164510, "dur":1243, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Executables/Windows/Forza-Racing/Forza Racing_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1690395197174636, "dur":81, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1690395197165827, "dur":8902, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Executables/Windows/Forza-Racing/Forza Racing_Data/sharedassets2.assets" }}
-,{ "pid":12345, "tid":4, "ts":1690395197175266, "dur":112, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1690395197174763, "dur":626, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Executables/Windows/Forza-Racing/Forza Racing_Data/level2" }}
-,{ "pid":12345, "tid":4, "ts":1690395197175426, "dur":383, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Executables/Windows/Forza-Racing/Forza Racing_Data/globalgamemanagers" }}
-,{ "pid":12345, "tid":4, "ts":1690395197175827, "dur":119551, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1690395197123889, "dur":5612, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1690395197129508, "dur":1765, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1690395197131274, "dur":2322, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1690395197137119, "dur":2183, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Executables/Windows/Forza-Racing/MonoBleedingEdge/etc/mono/4.0/web.config" }}
-,{ "pid":12345, "tid":5, "ts":1690395197139424, "dur":163, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Executables/Windows/Forza-Racing/Forza Racing_Data/Resources/unity default resources" }}
-,{ "pid":12345, "tid":5, "ts":1690395197140268, "dur":22095, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Executables/Windows/Forza-Racing/Forza Racing_Data/Resources/unity default resources" }}
-,{ "pid":12345, "tid":5, "ts":1690395197162419, "dur":1356, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Executables/Windows/Forza-Racing/Forza Racing_Data/Managed/UnityEngine.DirectorModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1690395197164072, "dur":1270, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Executables/Windows/Forza-Racing/Forza Racing_Data/Managed/UnityEngine.AnimationModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1690395197166177, "dur":62, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1690395197165380, "dur":870, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Executables/Windows/Forza-Racing/Forza Racing_Data/sharedassets2.resource" }}
-,{ "pid":12345, "tid":5, "ts":1690395197166281, "dur":8872, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Executables/Windows/Forza-Racing/Forza Racing_Data/ScriptingAssemblies.json" }}
-,{ "pid":12345, "tid":5, "ts":1690395197175283, "dur":178, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1690395197175465, "dur":657, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Executables/Windows/Forza-Racing/Forza Racing_Data/level0.resS" }}
-,{ "pid":12345, "tid":5, "ts":1690395197176137, "dur":119218, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1690395197123897, "dur":5655, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1690395197129559, "dur":1802, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1690395197131361, "dur":2133, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1690395197137476, "dur":82, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1690395197136971, "dur":602, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Executables/Windows/Forza-Racing/Forza Racing_Data/app.info" }}
-,{ "pid":12345, "tid":6, "ts":1690395197137728, "dur":2081, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Executables/Windows/Forza-Racing/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
-,{ "pid":12345, "tid":6, "ts":1690395197140340, "dur":11282, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Executables/Windows/Forza-Racing/Forza Racing_Data/Managed/System.Xml.dll" }}
-,{ "pid":12345, "tid":6, "ts":1690395197151724, "dur":947, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Executables/Windows/Forza-Racing/Forza Racing_Data/Managed/System.Configuration.dll" }}
-,{ "pid":12345, "tid":6, "ts":1690395197152715, "dur":554, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Executables/Windows/Forza-Racing/Forza Racing_Data/Managed/Unity.VisualScripting.State.dll" }}
-,{ "pid":12345, "tid":6, "ts":1690395197153317, "dur":610, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Executables/Windows/Forza-Racing/Forza Racing_Data/Managed/Unity.VisualScripting.Core.dll" }}
-,{ "pid":12345, "tid":6, "ts":1690395197153987, "dur":1315, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Executables/Windows/Forza-Racing/Forza Racing_Data/Managed/UnityEngine.WindModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1690395197156685, "dur":53, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1690395197155352, "dur":1416, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Executables/Windows/Forza-Racing/Forza Racing_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1690395197156889, "dur":842, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Executables/Windows/Forza-Racing/Forza Racing_Data/Managed/UnityEngine.UIModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1690395197157823, "dur":1321, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Executables/Windows/Forza-Racing/Forza Racing_Data/Managed/UnityEngine.TLSModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1690395197159375, "dur":972, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Executables/Windows/Forza-Racing/Forza Racing_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1690395197160389, "dur":1209, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Executables/Windows/Forza-Racing/Forza Racing_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1690395197161837, "dur":1370, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Executables/Windows/Forza-Racing/Forza Racing_Data/Managed/UnityEngine.IMGUIModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1690395197163439, "dur":71, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Volumes/VM_ErayKayur/Unity/2022.3.5f1/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ClusterRendererModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1690395197163437, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Executables/Windows/Forza-Racing/Forza Racing_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1690395197163740, "dur":1302, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Executables/Windows/Forza-Racing/Forza Racing_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1690395197166226, "dur":79, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1690395197165086, "dur":1247, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Executables/Windows/Forza-Racing/Forza Racing_Data/Managed/UnityEngine.AIModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1690395197166385, "dur":5342, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Executables/Windows/Forza-Racing/Forza Racing_Data/Resources/unity_builtin_extra" }}
-,{ "pid":12345, "tid":6, "ts":1690395197171750, "dur":3485, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Executables/Windows/Forza-Racing/Forza Racing_Data/resources.assets.resS" }}
-,{ "pid":12345, "tid":6, "ts":1690395197175259, "dur":73, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1690395197175827, "dur":79, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1690395197175336, "dur":614, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Executables/Windows/Forza-Racing/Forza Racing_Data/level0" }}
-,{ "pid":12345, "tid":6, "ts":1690395197175966, "dur":119386, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1690395197123971, "dur":5607, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1690395197129583, "dur":1789, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1690395197131373, "dur":2131, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1690395197136575, "dur":82, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1690395197134434, "dur":2236, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Executables/Windows/Forza-Racing/MonoBleedingEdge/etc/mono/config" }}
-,{ "pid":12345, "tid":7, "ts":1690395197136790, "dur":2951, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Executables/Windows/Forza-Racing/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":7, "ts":1690395197139964, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Executables/Windows/Forza-Racing/Forza Racing_Data/Managed/mscorlib.dll" }}
-,{ "pid":12345, "tid":7, "ts":1690395197140087, "dur":103, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1690395197140358, "dur":12583, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Executables/Windows/Forza-Racing/Forza Racing_Data/Managed/mscorlib.dll" }}
-,{ "pid":12345, "tid":7, "ts":1690395197153028, "dur":75, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1690395197153108, "dur":436, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Executables/Windows/Forza-Racing/Forza Racing_Data/Managed/Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":7, "ts":1690395197153575, "dur":54, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1690395197154218, "dur":69, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1690395197153676, "dur":621, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Executables/Windows/Forza-Racing/Forza Racing_Data/Managed/Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":7, "ts":1690395197154388, "dur":1220, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Executables/Windows/Forza-Racing/Forza Racing_Data/Managed/UnityEngine.VRModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1690395197155735, "dur":1264, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Executables/Windows/Forza-Racing/Forza Racing_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1690395197157078, "dur":876, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Executables/Windows/Forza-Racing/Forza Racing_Data/Managed/UnityEngine.TilemapModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1690395197158034, "dur":1208, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Executables/Windows/Forza-Racing/Forza Racing_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1690395197159656, "dur":1550, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Executables/Windows/Forza-Racing/Forza Racing_Data/Managed/UnityEngine.PropertiesModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1690395197161269, "dur":938, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Executables/Windows/Forza-Racing/Forza Racing_Data/Managed/UnityEngine.InputModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1690395197162252, "dur":1444, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Executables/Windows/Forza-Racing/Forza Racing_Data/Managed/UnityEngine.GIModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1690395197163838, "dur":69, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1690395197164083, "dur":1401, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Executables/Windows/Forza-Racing/Forza Racing_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1690395197165707, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Executables/Windows/Forza-Racing/Forza Racing_Data/sharedassets2.assets.resS" }}
-,{ "pid":12345, "tid":7, "ts":1690395197174608, "dur":80, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1690395197165785, "dur":8935, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Executables/Windows/Forza-Racing/Forza Racing_Data/sharedassets2.assets.resS" }}
-,{ "pid":12345, "tid":7, "ts":1690395197175487, "dur":70, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1690395197174750, "dur":855, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Executables/Windows/Forza-Racing/Forza Racing_Data/level3" }}
-,{ "pid":12345, "tid":7, "ts":1690395197175624, "dur":119751, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1690395197123975, "dur":5617, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1690395197129598, "dur":1871, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1690395197131469, "dur":2139, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1690395197136567, "dur":55, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1690395197134310, "dur":2327, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Executables/Windows/Forza-Racing/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
-,{ "pid":12345, "tid":8, "ts":1690395197136668, "dur":54, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Volumes/VM_ErayKayur/Unity/2022.3.5f1/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
-,{ "pid":12345, "tid":8, "ts":1690395197136666, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Executables/Windows/Forza-Racing/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
-,{ "pid":12345, "tid":8, "ts":1690395197136774, "dur":2553, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Executables/Windows/Forza-Racing/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
-,{ "pid":12345, "tid":8, "ts":1690395197139414, "dur":2141, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Temp/StagingArea/WindowsPlayer.exe" }}
-,{ "pid":12345, "tid":8, "ts":1690395197139414, "dur":2142, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Executables/Windows/Forza-Racing/Forza Racing.exe" }}
-,{ "pid":12345, "tid":8, "ts":1690395197141572, "dur":2502, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Executables/Windows/Forza-Racing/Forza Racing.exe" }}
-,{ "pid":12345, "tid":8, "ts":1690395197144257, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Executables/Windows/Forza-Racing/Forza Racing_Data/Managed/System.Transactions.dll" }}
-,{ "pid":12345, "tid":8, "ts":1690395197144490, "dur":1271, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Executables/Windows/Forza-Racing/Forza Racing_Data/Managed/System.Transactions.dll" }}
-,{ "pid":12345, "tid":8, "ts":1690395197145827, "dur":3465, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Executables/Windows/Forza-Racing/Forza Racing_Data/Managed/System.Numerics.dll" }}
-,{ "pid":12345, "tid":8, "ts":1690395197149440, "dur":2472, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Executables/Windows/Forza-Racing/Forza Racing_Data/Managed/System.IO.Compression.dll" }}
-,{ "pid":12345, "tid":8, "ts":1690395197151979, "dur":1121, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Executables/Windows/Forza-Racing/Forza Racing_Data/Managed/Mono.Security.dll" }}
-,{ "pid":12345, "tid":8, "ts":1690395197153186, "dur":724, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Executables/Windows/Forza-Racing/Forza Racing_Data/Managed/UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":8, "ts":1690395197153972, "dur":1339, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Executables/Windows/Forza-Racing/Forza Racing_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1690395197155396, "dur":1063, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Executables/Windows/Forza-Racing/Forza Racing_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1690395197156505, "dur":849, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Executables/Windows/Forza-Racing/Forza Racing_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1690395197157456, "dur":1116, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Executables/Windows/Forza-Racing/Forza Racing_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1690395197158620, "dur":843, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Executables/Windows/Forza-Racing/Forza Racing_Data/Managed/UnityEngine.SubstanceModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1690395197159513, "dur":1327, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Executables/Windows/Forza-Racing/Forza Racing_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1690395197160888, "dur":1056, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Executables/Windows/Forza-Racing/Forza Racing_Data/Managed/UnityEngine.LocalizationModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1690395197161966, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Executables/Windows/Forza-Racing/Forza Racing_Data/Managed/UnityEngine.GameCenterModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1690395197162081, "dur":1464, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Executables/Windows/Forza-Racing/Forza Racing_Data/Managed/UnityEngine.GameCenterModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1690395197163931, "dur":1124, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Executables/Windows/Forza-Racing/Forza Racing_Data/Managed/UnityEngine.AudioModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1690395197165112, "dur":130166, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Executables/Windows/Forza-Racing/UnityPlayer.dll" }}
-,{ "pid":12345, "tid":9, "ts":1690395197123981, "dur":5626, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1690395197129615, "dur":1848, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1690395197131464, "dur":2072, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1690395197137438, "dur":56, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1690395197135176, "dur":2331, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Executables/Windows/Forza-Racing/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
-,{ "pid":12345, "tid":9, "ts":1690395197137730, "dur":2406, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Executables/Windows/Forza-Racing/MonoBleedingEdge/etc/mono/2.0/web.config" }}
-,{ "pid":12345, "tid":9, "ts":1690395197144268, "dur":61, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1690395197140440, "dur":4007, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Executables/Windows/Forza-Racing/Forza Racing_Data/Managed/System.Xml.Linq.dll" }}
-,{ "pid":12345, "tid":9, "ts":1690395197144774, "dur":5587, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Executables/Windows/Forza-Racing/Forza Racing_Data/Managed/System.Runtime.Serialization.dll" }}
-,{ "pid":12345, "tid":9, "ts":1690395197150411, "dur":1673, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Executables/Windows/Forza-Racing/Forza Racing_Data/Managed/System.Drawing.dll" }}
-,{ "pid":12345, "tid":9, "ts":1690395197153561, "dur":51, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1690395197152131, "dur":1493, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Executables/Windows/Forza-Racing/Forza Racing_Data/Managed/netstandard.dll" }}
-,{ "pid":12345, "tid":9, "ts":1690395197153670, "dur":1491, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Executables/Windows/Forza-Racing/Forza Racing_Data/Managed/UnityEngine.dll" }}
-,{ "pid":12345, "tid":9, "ts":1690395197155210, "dur":974, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Executables/Windows/Forza-Racing/Forza Racing_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1690395197156239, "dur":1057, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Executables/Windows/Forza-Racing/Forza Racing_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1690395197158704, "dur":126, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1690395197157463, "dur":1399, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Executables/Windows/Forza-Racing/Forza Racing_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1690395197158979, "dur":1111, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Executables/Windows/Forza-Racing/Forza Racing_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1690395197160134, "dur":1392, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Executables/Windows/Forza-Racing/Forza Racing_Data/Managed/UnityEngine.PhysicsModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1690395197161572, "dur":1218, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Executables/Windows/Forza-Racing/Forza Racing_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1690395197163079, "dur":77, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Volumes/VM_ErayKayur/Unity/2022.3.5f1/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.CoreModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1690395197163077, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Executables/Windows/Forza-Racing/Forza Racing_Data/Managed/UnityEngine.CoreModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1690395197163162, "dur":103, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1690395197163625, "dur":2483, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Executables/Windows/Forza-Racing/Forza Racing_Data/Managed/UnityEngine.CoreModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1690395197166150, "dur":8995, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Executables/Windows/Forza-Racing/Forza Racing_Data/sharedassets0.assets.resS" }}
-,{ "pid":12345, "tid":9, "ts":1690395197175209, "dur":297, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1690395197175511, "dur":645, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Executables/Windows/Forza-Racing/Forza Racing_Data/level1" }}
-,{ "pid":12345, "tid":9, "ts":1690395197176169, "dur":119198, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1690395197123986, "dur":5634, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1690395197129625, "dur":507, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1690395197130132, "dur":3369, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1690395197137421, "dur":53, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1690395197134384, "dur":3103, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Executables/Windows/Forza-Racing/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
-,{ "pid":12345, "tid":10, "ts":1690395197137754, "dur":2026, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Executables/Windows/Forza-Racing/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":10, "ts":1690395197140315, "dur":12170, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Executables/Windows/Forza-Racing/Forza Racing_Data/Managed/System.dll" }}
-,{ "pid":12345, "tid":10, "ts":1690395197152539, "dur":521, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Executables/Windows/Forza-Racing/Forza Racing_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
-,{ "pid":12345, "tid":10, "ts":1690395197153154, "dur":629, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Executables/Windows/Forza-Racing/Forza Racing_Data/Managed/Unity.VisualScripting.Flow.dll" }}
-,{ "pid":12345, "tid":10, "ts":1690395197153900, "dur":1432, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Executables/Windows/Forza-Racing/Forza Racing_Data/Managed/UnityEngine.XRModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1690395197155417, "dur":1195, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Executables/Windows/Forza-Racing/Forza Racing_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1690395197156701, "dur":935, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Executables/Windows/Forza-Racing/Forza Racing_Data/Managed/UnityEngine.UmbraModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1690395197157682, "dur":1409, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Executables/Windows/Forza-Racing/Forza Racing_Data/Managed/UnityEngine.TerrainModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1690395197159239, "dur":1348, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Executables/Windows/Forza-Racing/Forza Racing_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1690395197160639, "dur":1186, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Executables/Windows/Forza-Racing/Forza Racing_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1690395197161904, "dur":1451, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Executables/Windows/Forza-Racing/Forza Racing_Data/Managed/UnityEngine.HotReloadModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1690395197163585, "dur":51, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Volumes/VM_ErayKayur/Unity/2022.3.5f1/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ClothModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1690395197163583, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Executables/Windows/Forza-Racing/Forza Racing_Data/Managed/UnityEngine.ClothModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1690395197163706, "dur":54, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1690395197163931, "dur":1246, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Executables/Windows/Forza-Racing/Forza Racing_Data/Managed/UnityEngine.ClothModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1690395197165207, "dur":251, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1690395197165489, "dur":774, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Executables/Windows/Forza-Racing/Forza Racing_Data/sharedassets3.assets.resS" }}
-,{ "pid":12345, "tid":10, "ts":1690395197175109, "dur":297, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1690395197166342, "dur":9075, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Executables/Windows/Forza-Racing/Forza Racing_Data/RuntimeInitializeOnLoads.json" }}
-,{ "pid":12345, "tid":10, "ts":1690395197175447, "dur":119892, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1690395197124000, "dur":5631, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1690395197129632, "dur":3951, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1690395197136726, "dur":1522, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Executables/Windows/Forza-Racing/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":11, "ts":1690395197138454, "dur":11702, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Executables/Windows/Forza-Racing/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
-,{ "pid":12345, "tid":11, "ts":1690395197150218, "dur":856, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Executables/Windows/Forza-Racing/Forza Racing_Data/Managed/System.EnterpriseServices.dll" }}
-,{ "pid":12345, "tid":11, "ts":1690395197153514, "dur":68, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1690395197151121, "dur":2473, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Executables/Windows/Forza-Racing/Forza Racing_Data/Managed/System.Core.dll" }}
-,{ "pid":12345, "tid":11, "ts":1690395197154197, "dur":74, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1690395197153657, "dur":628, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Executables/Windows/Forza-Racing/Forza Racing_Data/Managed/Assembly-CSharp-firstpass.dll" }}
-,{ "pid":12345, "tid":11, "ts":1690395197154330, "dur":1202, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Executables/Windows/Forza-Racing/Forza Racing_Data/Managed/UnityEngine.VehiclesModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1690395197157000, "dur":144, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1690395197155630, "dur":1526, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Executables/Windows/Forza-Racing/Forza Racing_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1690395197157393, "dur":1926, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Executables/Windows/Forza-Racing/Forza Racing_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1690395197159420, "dur":1020, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Executables/Windows/Forza-Racing/Forza Racing_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1690395197161814, "dur":74, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1690395197160483, "dur":1418, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Executables/Windows/Forza-Racing/Forza Racing_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1690395197161949, "dur":1359, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Executables/Windows/Forza-Racing/Forza Racing_Data/Managed/UnityEngine.GridModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1690395197163555, "dur":71, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Volumes/VM_ErayKayur/Unity/2022.3.5f1/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ClusterInputModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1690395197163553, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Executables/Windows/Forza-Racing/Forza Racing_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1690395197163875, "dur":1363, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Executables/Windows/Forza-Racing/Forza Racing_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1690395197166068, "dur":124, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1690395197165275, "dur":928, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Executables/Windows/Forza-Racing/Forza Racing_Data/sharedassets3.assets" }}
-,{ "pid":12345, "tid":11, "ts":1690395197166244, "dur":78, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1690395197166325, "dur":8981, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Executables/Windows/Forza-Racing/Forza Racing_Data/sharedassets0.assets" }}
-,{ "pid":12345, "tid":11, "ts":1690395197175785, "dur":117, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1690395197175344, "dur":618, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Executables/Windows/Forza-Racing/Forza Racing_Data/globalgamemanagers.assets" }}
-,{ "pid":12345, "tid":11, "ts":1690395197175978, "dur":119460, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1690395197124008, "dur":5633, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1690395197129643, "dur":3868, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1690395197134204, "dur":3828, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Executables/Windows/Forza-Racing/MonoBleedingEdge/etc/mono/browscap.ini" }}
-,{ "pid":12345, "tid":12, "ts":1690395197138157, "dur":6117, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Executables/Windows/Forza-Racing/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":12, "ts":1690395197144451, "dur":58, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Volumes/VM_ErayKayur/Unity/2022.3.5f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-win32/System.Security.dll" }}
-,{ "pid":12345, "tid":12, "ts":1690395197144447, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Executables/Windows/Forza-Racing/Forza Racing_Data/Managed/System.Security.dll" }}
-,{ "pid":12345, "tid":12, "ts":1690395197144564, "dur":84, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1690395197144753, "dur":4643, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Executables/Windows/Forza-Racing/Forza Racing_Data/Managed/System.Security.dll" }}
-,{ "pid":12345, "tid":12, "ts":1690395197149460, "dur":1151, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Executables/Windows/Forza-Racing/Forza Racing_Data/Managed/System.IO.Compression.FileSystem.dll" }}
-,{ "pid":12345, "tid":12, "ts":1690395197150656, "dur":1049, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Executables/Windows/Forza-Racing/Forza Racing_Data/Managed/System.Data.DataSetExtensions.dll" }}
-,{ "pid":12345, "tid":12, "ts":1690395197151785, "dur":1140, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Executables/Windows/Forza-Racing/Forza Racing_Data/Managed/System.ComponentModel.Composition.dll" }}
-,{ "pid":12345, "tid":12, "ts":1690395197153024, "dur":474, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Executables/Windows/Forza-Racing/Forza Racing_Data/Managed/Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":12, "ts":1690395197154173, "dur":54, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1690395197153558, "dur":687, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Executables/Windows/Forza-Racing/Forza Racing_Data/Managed/Unity.AI.Navigation.dll" }}
-,{ "pid":12345, "tid":12, "ts":1690395197154302, "dur":1371, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Executables/Windows/Forza-Racing/Forza Racing_Data/Managed/UnityEngine.VideoModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1690395197155751, "dur":1189, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Executables/Windows/Forza-Racing/Forza Racing_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1690395197156979, "dur":103, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1690395197157087, "dur":2705, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Executables/Windows/Forza-Racing/Forza Racing_Data/Managed/UnityEngine.UIElementsModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1690395197161121, "dur":63, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1690395197159839, "dur":1358, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Executables/Windows/Forza-Racing/Forza Racing_Data/Managed/UnityEngine.ProfilerModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1690395197161297, "dur":1153, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Executables/Windows/Forza-Racing/Forza Racing_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1690395197163125, "dur":1027, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Executables/Windows/Forza-Racing/Forza Racing_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1690395197164197, "dur":1621, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Executables/Windows/Forza-Racing/Forza Racing_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1690395197165848, "dur":75, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1690395197174606, "dur":52, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1690395197165927, "dur":8743, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Executables/Windows/Forza-Racing/Forza Racing_Data/sharedassets1.assets.resS" }}
-,{ "pid":12345, "tid":12, "ts":1690395197175488, "dur":90, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1690395197174739, "dur":855, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Executables/Windows/Forza-Racing/Forza Racing_Data/level3.resS" }}
-,{ "pid":12345, "tid":12, "ts":1690395197175611, "dur":119749, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1690395197302595, "dur":459, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid":12345, "tid":0, "ts":1690463224839421, "dur":53, "ph":"X", "name": "IPC_Client_InitializeAndConnectToParent",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690463224839560, "dur":6167, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690463224845735, "dur":153, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690463224845932, "dur":198, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690463224850108, "dur":58, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /Users/erayk/Desktop/Executables/Linux-Forza-Racing/Forza-Racing_Data/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":0, "ts":1690463224846142, "dur":4402, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690463224850545, "dur":249163, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690463225099731, "dur":94, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690463225099827, "dur":87, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690463225099920, "dur":70, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690463225100126, "dur":64, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690463225100274, "dur":54, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690463225100390, "dur":2816, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1690463224846011, "dur":4545, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690463224850562, "dur":1829, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690463224855718, "dur":886, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/boot.config_16d3.info" }}
+,{ "pid":12345, "tid":1, "ts":1690463224857019, "dur":309, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/erayk/Forza-Racing/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690463224857330, "dur":151, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/erayk/Forza-Racing/Library/Bee/PlayerScriptAssemblies/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690463224857482, "dur":192, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/erayk/Forza-Racing/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690463224857675, "dur":79, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/erayk/Forza-Racing/Library/Bee/PlayerScriptAssemblies/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690463224857755, "dur":158, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/erayk/Forza-Racing/Library/Bee/PlayerScriptAssemblies/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690463224856606, "dur":1513, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/LinuxPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1690463224858483, "dur":117652, "ph":"X", "name": "AddBootConfigGUID",  "args": { "detail":"Library/Bee/artifacts/LinuxPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1690463224977413, "dur":243, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/erayk/Desktop/Executables/Linux-Forza-Racing/Forza-Racing_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1690463224977657, "dur":122132, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690463224846051, "dur":4517, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690463224850576, "dur":862, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690463224851439, "dur":1021, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690463224854402, "dur":11309, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/erayk/Desktop/Executables/Linux-Forza-Racing/Forza-Racing_Data/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1690463224865877, "dur":118, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Volumes/VM_ErayKayur/Unity/2022.3.5f1/PlaybackEngines/LinuxStandaloneSupport/Variations/linux64_player_nondevelopment_mono/Data/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1690463224865876, "dur":120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/erayk/Desktop/Executables/Linux-Forza-Racing/Forza-Racing_Data/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1690463224866241, "dur":11113, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/erayk/Desktop/Executables/Linux-Forza-Racing/Forza-Racing_Data/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1690463224877459, "dur":7869, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/erayk/Desktop/Executables/Linux-Forza-Racing/Forza-Racing_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690463224885428, "dur":9196, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/erayk/Desktop/Executables/Linux-Forza-Racing/Forza-Racing_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690463224895903, "dur":70, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690463224894667, "dur":1317, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/erayk/Desktop/Executables/Linux-Forza-Racing/Forza-Racing_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690463224896398, "dur":476, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/erayk/Desktop/Executables/Linux-Forza-Racing/Forza-Racing_Data/Managed/Unity.AI.Navigation.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690463224896912, "dur":4239, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/erayk/Desktop/Executables/Linux-Forza-Racing/Forza-Racing_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690463224901219, "dur":4589, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/erayk/Desktop/Executables/Linux-Forza-Racing/Forza-Racing_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690463224905851, "dur":2821, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/erayk/Desktop/Executables/Linux-Forza-Racing/Forza-Racing_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690463224908717, "dur":1672, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/erayk/Desktop/Executables/Linux-Forza-Racing/Forza-Racing_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690463224910451, "dur":4948, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/erayk/Desktop/Executables/Linux-Forza-Racing/Forza-Racing_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690463224915461, "dur":1226, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/erayk/Desktop/Executables/Linux-Forza-Racing/Forza-Racing_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690463224916804, "dur":5085, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/erayk/Desktop/Executables/Linux-Forza-Racing/Forza-Racing_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690463224921922, "dur":1400, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/erayk/Desktop/Executables/Linux-Forza-Racing/Forza-Racing_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":2, "ts":1690463224923627, "dur":717, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/erayk/Desktop/Executables/Linux-Forza-Racing/Forza-Racing_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":2, "ts":1690463224924354, "dur":175403, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690463224846055, "dur":4529, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690463224850590, "dur":877, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690463224851468, "dur":945, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690463224871676, "dur":64, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690463224853464, "dur":18312, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/erayk/Desktop/Executables/Linux-Forza-Racing/Forza-Racing_Data/MonoBleedingEdge/x86_64/libMonoPosixHelper.so" }}
+,{ "pid":12345, "tid":3, "ts":1690463224871943, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/erayk/Desktop/Executables/Linux-Forza-Racing/Forza-Racing_Data/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1690463224872327, "dur":5590, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/erayk/Desktop/Executables/Linux-Forza-Racing/Forza-Racing_Data/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1690463224877945, "dur":7085, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/erayk/Desktop/Executables/Linux-Forza-Racing/Forza-Racing_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":3, "ts":1690463224885075, "dur":9113, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/erayk/Desktop/Executables/Linux-Forza-Racing/Forza-Racing_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1690463224894234, "dur":1353, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/erayk/Desktop/Executables/Linux-Forza-Racing/Forza-Racing_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1690463224895625, "dur":719, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/erayk/Desktop/Executables/Linux-Forza-Racing/Forza-Racing_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":3, "ts":1690463224896512, "dur":52, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Volumes/VM_ErayKayur/Unity/2022.3.5f1/PlaybackEngines/LinuxStandaloneSupport/Variations/mono/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1690463224896510, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/erayk/Desktop/Executables/Linux-Forza-Racing/Forza-Racing_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1690463224896822, "dur":4406, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/erayk/Desktop/Executables/Linux-Forza-Racing/Forza-Racing_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1690463224901269, "dur":3374, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/erayk/Desktop/Executables/Linux-Forza-Racing/Forza-Racing_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1690463224904698, "dur":4233, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/erayk/Desktop/Executables/Linux-Forza-Racing/Forza-Racing_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1690463224909006, "dur":3870, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/erayk/Desktop/Executables/Linux-Forza-Racing/Forza-Racing_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1690463224912904, "dur":3121, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/erayk/Desktop/Executables/Linux-Forza-Racing/Forza-Racing_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1690463224916233, "dur":1059, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/erayk/Desktop/Executables/Linux-Forza-Racing/Forza-Racing_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1690463224917314, "dur":4253, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/erayk/Desktop/Executables/Linux-Forza-Racing/Forza-Racing_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1690463224921598, "dur":1255, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/erayk/Desktop/Executables/Linux-Forza-Racing/Forza-Racing_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1690463224923011, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/erayk/Desktop/Executables/Linux-Forza-Racing/Forza-Racing_Data/level3.resS" }}
+,{ "pid":12345, "tid":3, "ts":1690463224923068, "dur":54, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690463224924096, "dur":109, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690463224923390, "dur":841, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/erayk/Desktop/Executables/Linux-Forza-Racing/Forza-Racing_Data/level3.resS" }}
+,{ "pid":12345, "tid":3, "ts":1690463224924245, "dur":175533, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690463224846060, "dur":4549, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690463224850615, "dur":1119, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690463224851734, "dur":693, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690463224853439, "dur":31811, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/erayk/Desktop/Executables/Linux-Forza-Racing/Forza-Racing_Data/MonoBleedingEdge/x86_64/libmono-native.so" }}
+,{ "pid":12345, "tid":4, "ts":1690463224885356, "dur":9183, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/erayk/Desktop/Executables/Linux-Forza-Racing/Forza-Racing_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690463224894611, "dur":1564, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/erayk/Desktop/Executables/Linux-Forza-Racing/Forza-Racing_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690463224896713, "dur":712, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/erayk/Desktop/Executables/Linux-Forza-Racing/Forza-Racing_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690463224897507, "dur":6456, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/erayk/Desktop/Executables/Linux-Forza-Racing/Forza-Racing_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690463224904045, "dur":2750, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/erayk/Desktop/Executables/Linux-Forza-Racing/Forza-Racing_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690463224906908, "dur":2825, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/erayk/Desktop/Executables/Linux-Forza-Racing/Forza-Racing_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690463224909779, "dur":3847, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/erayk/Desktop/Executables/Linux-Forza-Racing/Forza-Racing_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690463224913668, "dur":2728, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/erayk/Desktop/Executables/Linux-Forza-Racing/Forza-Racing_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690463224916438, "dur":5509, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/erayk/Desktop/Executables/Linux-Forza-Racing/Forza-Racing_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690463224921988, "dur":1196, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/erayk/Desktop/Executables/Linux-Forza-Racing/Forza-Racing_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":4, "ts":1690463224923621, "dur":844, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/erayk/Desktop/Executables/Linux-Forza-Racing/Forza-Racing_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1690463224924473, "dur":175272, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690463224846069, "dur":4603, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690463224850679, "dur":1228, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690463224851907, "dur":545, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690463224854208, "dur":17497, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/erayk/Desktop/Executables/Linux-Forza-Racing/Forza-Racing_Data/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":5, "ts":1690463224871773, "dur":122, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Volumes/VM_ErayKayur/Unity/2022.3.5f1/PlaybackEngines/LinuxStandaloneSupport/Variations/linux64_player_nondevelopment_mono/Data/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1690463224871770, "dur":127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/erayk/Desktop/Executables/Linux-Forza-Racing/Forza-Racing_Data/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1690463224872290, "dur":8884, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/erayk/Desktop/Executables/Linux-Forza-Racing/Forza-Racing_Data/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1690463224881206, "dur":4016, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/erayk/Desktop/Executables/Linux-Forza-Racing/Forza-Racing_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":5, "ts":1690463224885420, "dur":9588, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/erayk/Desktop/Executables/Linux-Forza-Racing/Forza-Racing_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":5, "ts":1690463224895048, "dur":1157, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/erayk/Desktop/Executables/Linux-Forza-Racing/Forza-Racing_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":5, "ts":1690463224896539, "dur":554, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/erayk/Desktop/Executables/Linux-Forza-Racing/Forza-Racing_Data/Managed/Assembly-CSharp-firstpass.dll" }}
+,{ "pid":12345, "tid":5, "ts":1690463224897132, "dur":5844, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/erayk/Desktop/Executables/Linux-Forza-Racing/Forza-Racing_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1690463224903018, "dur":1697, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/erayk/Desktop/Executables/Linux-Forza-Racing/Forza-Racing_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1690463224904767, "dur":2045, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/erayk/Desktop/Executables/Linux-Forza-Racing/Forza-Racing_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1690463224906915, "dur":2241, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/erayk/Desktop/Executables/Linux-Forza-Racing/Forza-Racing_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1690463224909233, "dur":3800, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/erayk/Desktop/Executables/Linux-Forza-Racing/Forza-Racing_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1690463224913059, "dur":2559, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/erayk/Desktop/Executables/Linux-Forza-Racing/Forza-Racing_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1690463224915665, "dur":1475, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/erayk/Desktop/Executables/Linux-Forza-Racing/Forza-Racing_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1690463224917212, "dur":4340, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/erayk/Desktop/Executables/Linux-Forza-Racing/Forza-Racing_Data/Resources/UnityPlayer.png" }}
+,{ "pid":12345, "tid":5, "ts":1690463224921586, "dur":1417, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/erayk/Desktop/Executables/Linux-Forza-Racing/Forza-Racing_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":5, "ts":1690463224924096, "dur":135, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690463224923420, "dur":827, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/erayk/Desktop/Executables/Linux-Forza-Racing/Forza-Racing_Data/level2" }}
+,{ "pid":12345, "tid":5, "ts":1690463224924256, "dur":175550, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1690463224846067, "dur":4579, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1690463224850652, "dur":1217, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1690463224851870, "dur":550, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1690463224853414, "dur":32415, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/erayk/Desktop/Executables/Linux-Forza-Racing/Forza-Racing_Data/MonoBleedingEdge/x86_64/libmonobdwgc-2.0.so" }}
+,{ "pid":12345, "tid":6, "ts":1690463224885862, "dur":9310, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/erayk/Desktop/Executables/Linux-Forza-Racing/Forza-Racing_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1690463224895873, "dur":78, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1690463224895215, "dur":746, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/erayk/Desktop/Executables/Linux-Forza-Racing/Forza-Racing_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":6, "ts":1690463224895997, "dur":603, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/erayk/Desktop/Executables/Linux-Forza-Racing/Forza-Racing_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1690463224896813, "dur":4551, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/erayk/Desktop/Executables/Linux-Forza-Racing/Forza-Racing_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1690463224901392, "dur":4236, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/erayk/Desktop/Executables/Linux-Forza-Racing/Forza-Racing_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1690463224905691, "dur":1553, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/erayk/Desktop/Executables/Linux-Forza-Racing/Forza-Racing_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1690463224907271, "dur":2493, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/erayk/Desktop/Executables/Linux-Forza-Racing/Forza-Racing_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1690463224909800, "dur":3906, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/erayk/Desktop/Executables/Linux-Forza-Racing/Forza-Racing_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1690463224916290, "dur":59, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1690463224913744, "dur":2615, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/erayk/Desktop/Executables/Linux-Forza-Racing/Forza-Racing_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1690463224916414, "dur":5527, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/erayk/Desktop/Executables/Linux-Forza-Racing/Forza-Racing_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1690463224921971, "dur":985, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/erayk/Desktop/Executables/Linux-Forza-Racing/Forza-Racing_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":6, "ts":1690463224923101, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/erayk/Desktop/Executables/Linux-Forza-Racing/Forza-Racing_Data/level3" }}
+,{ "pid":12345, "tid":6, "ts":1690463224923156, "dur":64, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1690463224923424, "dur":688, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/erayk/Desktop/Executables/Linux-Forza-Racing/Forza-Racing_Data/level3" }}
+,{ "pid":12345, "tid":6, "ts":1690463224924125, "dur":175644, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1690463224846076, "dur":4608, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1690463224850688, "dur":1210, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1690463224851898, "dur":569, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1690463224865643, "dur":123, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1690463224855062, "dur":10725, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/erayk/Desktop/Executables/Linux-Forza-Racing/Forza-Racing_Data/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1690463224865913, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/erayk/Desktop/Executables/Linux-Forza-Racing/Forza-Racing_Data/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1690463224866390, "dur":5703, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/erayk/Desktop/Executables/Linux-Forza-Racing/Forza-Racing_Data/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1690463224872172, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/erayk/Desktop/Executables/Linux-Forza-Racing/Forza-Racing_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":7, "ts":1690463224872361, "dur":22046, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/erayk/Desktop/Executables/Linux-Forza-Racing/Forza-Racing_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":7, "ts":1690463224895857, "dur":57, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1690463224894450, "dur":1475, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/erayk/Desktop/Executables/Linux-Forza-Racing/Forza-Racing_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":7, "ts":1690463224895990, "dur":770, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/erayk/Desktop/Executables/Linux-Forza-Racing/Forza-Racing_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":7, "ts":1690463224896887, "dur":4371, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/erayk/Desktop/Executables/Linux-Forza-Racing/Forza-Racing_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1690463224901306, "dur":4433, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/erayk/Desktop/Executables/Linux-Forza-Racing/Forza-Racing_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1690463224905785, "dur":2845, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/erayk/Desktop/Executables/Linux-Forza-Racing/Forza-Racing_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1690463224908663, "dur":64, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1690463224908746, "dur":1781, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/erayk/Desktop/Executables/Linux-Forza-Racing/Forza-Racing_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1690463224910552, "dur":69, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1690463224910625, "dur":4813, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/erayk/Desktop/Executables/Linux-Forza-Racing/Forza-Racing_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1690463224915545, "dur":6056, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/erayk/Desktop/Executables/Linux-Forza-Racing/Forza-Racing_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1690463224921635, "dur":1506, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/erayk/Desktop/Executables/Linux-Forza-Racing/Forza-Racing_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":7, "ts":1690463224923428, "dur":734, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/erayk/Desktop/Executables/Linux-Forza-Racing/Forza-Racing_Data/level0" }}
+,{ "pid":12345, "tid":7, "ts":1690463224924170, "dur":175514, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1690463224846135, "dur":4558, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1690463224850696, "dur":1265, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1690463224851961, "dur":513, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1690463224855172, "dur":16658, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/erayk/Desktop/Executables/Linux-Forza-Racing/Forza-Racing_Data/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1690463224871997, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/erayk/Desktop/Executables/Linux-Forza-Racing/Forza-Racing_Data/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1690463224872289, "dur":12812, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/erayk/Desktop/Executables/Linux-Forza-Racing/Forza-Racing_Data/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1690463224885277, "dur":9215, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/erayk/Desktop/Executables/Linux-Forza-Racing/Forza-Racing_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":8, "ts":1690463224894565, "dur":1763, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/erayk/Desktop/Executables/Linux-Forza-Racing/Forza-Racing_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":8, "ts":1690463224896541, "dur":1080, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/erayk/Desktop/Executables/Linux-Forza-Racing/Forza-Racing_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1690463224897663, "dur":6404, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/erayk/Desktop/Executables/Linux-Forza-Racing/Forza-Racing_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1690463224904125, "dur":2239, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/erayk/Desktop/Executables/Linux-Forza-Racing/Forza-Racing_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1690463224906528, "dur":3256, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/erayk/Desktop/Executables/Linux-Forza-Racing/Forza-Racing_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1690463224909824, "dur":3782, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/erayk/Desktop/Executables/Linux-Forza-Racing/Forza-Racing_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1690463224913644, "dur":2693, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/erayk/Desktop/Executables/Linux-Forza-Racing/Forza-Racing_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1690463224916407, "dur":1572, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/erayk/Desktop/Executables/Linux-Forza-Racing/Forza-Racing_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1690463224918007, "dur":4809, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/erayk/Desktop/Executables/Linux-Forza-Racing/Forza-Racing_Data/sharedassets2.resource" }}
+,{ "pid":12345, "tid":8, "ts":1690463224922943, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/erayk/Desktop/Executables/Linux-Forza-Racing/Forza-Racing_Data/resources.assets" }}
+,{ "pid":12345, "tid":8, "ts":1690463224924111, "dur":64, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1690463224923344, "dur":837, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/erayk/Desktop/Executables/Linux-Forza-Racing/Forza-Racing_Data/resources.assets" }}
+,{ "pid":12345, "tid":8, "ts":1690463224924205, "dur":175529, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1690463224846136, "dur":4564, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1690463224850706, "dur":1205, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1690463224851912, "dur":521, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1690463224865599, "dur":58, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1690463224854356, "dur":11365, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/erayk/Desktop/Executables/Linux-Forza-Racing/Forza-Racing_Data/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":9, "ts":1690463224865835, "dur":142, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/erayk/Desktop/Executables/Linux-Forza-Racing/Forza-Racing_Data/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1690463224865980, "dur":54, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1690463224866046, "dur":52, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1690463224866240, "dur":5687, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/erayk/Desktop/Executables/Linux-Forza-Racing/Forza-Racing_Data/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1690463224872034, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/erayk/Desktop/Executables/Linux-Forza-Racing/Forza-Racing_Data/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":9, "ts":1690463224872449, "dur":5295, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/erayk/Desktop/Executables/Linux-Forza-Racing/Forza-Racing_Data/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":9, "ts":1690463224877790, "dur":3147, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/erayk/Desktop/Executables/Linux-Forza-Racing/Forza-Racing_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":9, "ts":1690463224881051, "dur":758, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/erayk/Desktop/Executables/Linux-Forza-Racing/Forza-Racing_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":9, "ts":1690463224881840, "dur":3726, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/erayk/Desktop/Executables/Linux-Forza-Racing/Forza-Racing_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":9, "ts":1690463224885620, "dur":9668, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/erayk/Desktop/Executables/Linux-Forza-Racing/Forza-Racing_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":9, "ts":1690463224895345, "dur":919, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/erayk/Desktop/Executables/Linux-Forza-Racing/Forza-Racing_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":9, "ts":1690463224896409, "dur":52, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Volumes/VM_ErayKayur/Unity/2022.3.5f1/PlaybackEngines/LinuxStandaloneSupport/Variations/mono/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":9, "ts":1690463224896408, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/erayk/Desktop/Executables/Linux-Forza-Racing/Forza-Racing_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":9, "ts":1690463224896468, "dur":51, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1690463224896556, "dur":1164, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/erayk/Desktop/Executables/Linux-Forza-Racing/Forza-Racing_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":9, "ts":1690463224897752, "dur":5215, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/erayk/Desktop/Executables/Linux-Forza-Racing/Forza-Racing_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1690463224903011, "dur":1737, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/erayk/Desktop/Executables/Linux-Forza-Racing/Forza-Racing_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1690463224904784, "dur":3928, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/erayk/Desktop/Executables/Linux-Forza-Racing/Forza-Racing_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1690463224908763, "dur":67, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1690463224908835, "dur":1738, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/erayk/Desktop/Executables/Linux-Forza-Racing/Forza-Racing_Data/Managed/UnityEngine.PropertiesModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1690463224910605, "dur":5488, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/erayk/Desktop/Executables/Linux-Forza-Racing/Forza-Racing_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1690463224916268, "dur":1175, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/erayk/Desktop/Executables/Linux-Forza-Racing/Forza-Racing_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1690463224917466, "dur":4190, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/erayk/Desktop/Executables/Linux-Forza-Racing/Forza-Racing_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":9, "ts":1690463224921682, "dur":1417, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/erayk/Desktop/Executables/Linux-Forza-Racing/Forza-Racing_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":9, "ts":1690463224923254, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/erayk/Desktop/Executables/Linux-Forza-Racing/Forza-Racing_Data/level0.resS" }}
+,{ "pid":12345, "tid":9, "ts":1690463224923424, "dur":718, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/erayk/Desktop/Executables/Linux-Forza-Racing/Forza-Racing_Data/level0.resS" }}
+,{ "pid":12345, "tid":9, "ts":1690463224924154, "dur":175550, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1690463224846136, "dur":4577, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1690463224850719, "dur":191, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1690463224850911, "dur":1531, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1690463224865631, "dur":117, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1690463224854596, "dur":11185, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/erayk/Desktop/Executables/Linux-Forza-Racing/Forza-Racing_Data/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":10, "ts":1690463224865910, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/erayk/Desktop/Executables/Linux-Forza-Racing/Forza-Racing_Data/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":10, "ts":1690463224866264, "dur":10228, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/erayk/Desktop/Executables/Linux-Forza-Racing/Forza-Racing_Data/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":10, "ts":1690463224876505, "dur":4458, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/erayk/Desktop/Executables/Linux-Forza-Racing/Forza-Racing.x86_64" }}
+,{ "pid":12345, "tid":10, "ts":1690463224881047, "dur":4523, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/erayk/Desktop/Executables/Linux-Forza-Racing/Forza-Racing.x86_64" }}
+,{ "pid":12345, "tid":10, "ts":1690463224885625, "dur":15319, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/erayk/Desktop/Executables/Linux-Forza-Racing/Forza-Racing_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":10, "ts":1690463224900989, "dur":3212, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/erayk/Desktop/Executables/Linux-Forza-Racing/Forza-Racing_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1690463224904245, "dur":2188, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/erayk/Desktop/Executables/Linux-Forza-Racing/Forza-Racing_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1690463224906544, "dur":2602, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/erayk/Desktop/Executables/Linux-Forza-Racing/Forza-Racing_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1690463224909229, "dur":1372, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/erayk/Desktop/Executables/Linux-Forza-Racing/Forza-Racing_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1690463224910635, "dur":5240, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/erayk/Desktop/Executables/Linux-Forza-Racing/Forza-Racing_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1690463224916021, "dur":1042, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/erayk/Desktop/Executables/Linux-Forza-Racing/Forza-Racing_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1690463224917102, "dur":5591, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/erayk/Desktop/Executables/Linux-Forza-Racing/Forza-Racing_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1690463224922727, "dur":633, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/erayk/Desktop/Executables/Linux-Forza-Racing/Forza-Racing_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":10, "ts":1690463224923618, "dur":748, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/erayk/Desktop/Executables/Linux-Forza-Racing/Forza-Racing_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":10, "ts":1690463224924381, "dur":175312, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1690463224846145, "dur":4580, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1690463224850726, "dur":1680, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1690463224852417, "dur":879, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1690463224853347, "dur":352, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/erayk/Desktop/Executables/Linux-Forza-Racing/Forza-Racing_Data/app.info" }}
+,{ "pid":12345, "tid":11, "ts":1690463224865602, "dur":101, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1690463224854537, "dur":11201, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/erayk/Desktop/Executables/Linux-Forza-Racing/Forza-Racing_Data/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":11, "ts":1690463224865835, "dur":110, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Volumes/VM_ErayKayur/Unity/2022.3.5f1/PlaybackEngines/LinuxStandaloneSupport/Variations/linux64_player_nondevelopment_mono/Data/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":11, "ts":1690463224865832, "dur":114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/erayk/Desktop/Executables/Linux-Forza-Racing/Forza-Racing_Data/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":11, "ts":1690463224866262, "dur":5695, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/erayk/Desktop/Executables/Linux-Forza-Racing/Forza-Racing_Data/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":11, "ts":1690463224872095, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/erayk/Desktop/Executables/Linux-Forza-Racing/Forza-Racing_Data/MonoBleedingEdge/etc/config" }}
+,{ "pid":12345, "tid":11, "ts":1690463224872226, "dur":5095, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/erayk/Desktop/Executables/Linux-Forza-Racing/Forza-Racing_Data/MonoBleedingEdge/etc/config" }}
+,{ "pid":12345, "tid":11, "ts":1690463224877337, "dur":3613, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/erayk/Desktop/Executables/Linux-Forza-Racing/UnityPlayer.so" }}
+,{ "pid":12345, "tid":11, "ts":1690463224881037, "dur":218602, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/erayk/Desktop/Executables/Linux-Forza-Racing/UnityPlayer.so" }}
+,{ "pid":12345, "tid":12, "ts":1690463224846145, "dur":4598, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1690463224850745, "dur":1739, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1690463224855465, "dur":16358, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/erayk/Desktop/Executables/Linux-Forza-Racing/Forza-Racing_Data/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":12, "ts":1690463224871965, "dur":93, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Volumes/VM_ErayKayur/Unity/2022.3.5f1/PlaybackEngines/LinuxStandaloneSupport/Variations/linux64_player_nondevelopment_mono/Data/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":12, "ts":1690463224871963, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/erayk/Desktop/Executables/Linux-Forza-Racing/Forza-Racing_Data/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":12, "ts":1690463224872062, "dur":55, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1690463224872279, "dur":8799, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/erayk/Desktop/Executables/Linux-Forza-Racing/Forza-Racing_Data/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":12, "ts":1690463224881122, "dur":749, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/erayk/Desktop/Executables/Linux-Forza-Racing/Forza-Racing_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":12, "ts":1690463224881899, "dur":3945, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/erayk/Desktop/Executables/Linux-Forza-Racing/Forza-Racing_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":12, "ts":1690463224885874, "dur":10793, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/erayk/Desktop/Executables/Linux-Forza-Racing/Forza-Racing_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":12, "ts":1690463224896822, "dur":4131, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/erayk/Desktop/Executables/Linux-Forza-Racing/Forza-Racing_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1690463224903984, "dur":54, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1690463224900993, "dur":3058, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/erayk/Desktop/Executables/Linux-Forza-Racing/Forza-Racing_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1690463224904100, "dur":5984, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/erayk/Desktop/Executables/Linux-Forza-Racing/Forza-Racing_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1690463224910120, "dur":3574, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/erayk/Desktop/Executables/Linux-Forza-Racing/Forza-Racing_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1690463224913724, "dur":2798, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/erayk/Desktop/Executables/Linux-Forza-Racing/Forza-Racing_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1690463224916557, "dur":1503, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/erayk/Desktop/Executables/Linux-Forza-Racing/Forza-Racing_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1690463224918084, "dur":4321, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/erayk/Desktop/Executables/Linux-Forza-Racing/Forza-Racing_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":12, "ts":1690463224922455, "dur":562, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/erayk/Desktop/Executables/Linux-Forza-Racing/Forza-Racing_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":12, "ts":1690463224924120, "dur":95, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1690463224923425, "dur":817, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/erayk/Desktop/Executables/Linux-Forza-Racing/Forza-Racing_Data/level1" }}
+,{ "pid":12345, "tid":12, "ts":1690463224924256, "dur":175432, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690463225105070, "dur":358, "ph":"X", "name": "ProfilerWriteOutput" }
 ,
