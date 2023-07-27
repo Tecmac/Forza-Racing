@@ -23,19 +23,20 @@ Forza Racing is a race game which orientates it self on the qualfiying mode in m
 # Ingame
 
 ## Startmenu
-<img width="1680" alt="Screenshot 2023-07-26 at 22 14 39" src="https://github.com/Tecmac/Forza-Racing/assets/53382401/b81af06d-2814-48a5-815c-08367f005bc9">
+![Starmenu](Screenshots/Startmenu.png)
 
 ## Select the track
-<img width="1680" alt="Screenshot 2023-07-26 at 22 23 22" src="https://github.com/Tecmac/Forza-Racing/assets/53382401/1f5df265-0690-41cf-812e-8ec26e01d671">
+![Maps](Screenshots/Maps.png)
+
 
 ## Countdown till the game starts
-<img width="1680" alt="Screenshot 2023-07-26 at 22 23 50" src="https://github.com/Tecmac/Forza-Racing/assets/53382401/04517a4b-ecba-4907-a741-5883a82def29">
+![Countdown](Screenshots/Countdown.png)
 
 ## Race through the chicane
-<img width="1680" alt="Screenshot 2023-07-26 at 22 25 39" src="https://github.com/Tecmac/Forza-Racing/assets/53382401/6e1977ea-062a-4d0a-8ff8-bf922856e6b9">
+![Racíng](Screenshots/Racing.png)
 
 ## Just before the finish line
-<img width="1680" alt="Screenshot 2023-07-26 at 22 26 01" src="https://github.com/Tecmac/Forza-Racing/assets/53382401/f4a64c94-06b2-40e7-83c5-41f55b1ff3b3">
+![Finish](Screenshots/Finish.png)
 
 ## Picture License
 <p class="attribution">"<a target="_blank" rel="noopener noreferrer" href="https://www.flickr.com/photos/105731165@N07/40248356523">Red Bull RB15 / Pierre Gasly / FRA / Red Bull Racing Formula One Team</a>" by <a target="_blank" rel="noopener noreferrer" href="https://www.flickr.com/photos/105731165@N07">Renzopaso</a> is licensed under <a target="_blank" rel="noopener noreferrer" href="https://creativecommons.org/licenses/by-sa/2.0/?ref=openverse">CC BY-SA 2.0 <img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" style="height: 1em; margin-right: 0.125em; display: inline;"></img><img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" style="height: 1em; margin-right: 0.125em; display: inline;"></img><img src="https://mirrors.creativecommons.org/presskit/icons/sa.svg" style="height: 1em; margin-right: 0.125em; display: inline;"></img></a>. </p>
