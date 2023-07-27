@@ -31,7 +31,7 @@ Forza Racing is a race game which orientates it self on the qualfiying mode in m
 ## Countdown till the game starts
 <img width="1680" alt="Screenshot 2023-07-26 at 22 23 50" src="https://github.com/Tecmac/Forza-Racing/assets/53382401/04517a4b-ecba-4907-a741-5883a82def29">
 
-## Racing through the chicane
+## Race through the chicane
 <img width="1680" alt="Screenshot 2023-07-26 at 22 25 39" src="https://github.com/Tecmac/Forza-Racing/assets/53382401/6e1977ea-062a-4d0a-8ff8-bf922856e6b9">
 
 ## Just before the finish line
